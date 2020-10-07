@@ -16,7 +16,7 @@ document.getElementById("new-game-button").addEventListener('click', newGame);
 document.getElementById("roll-dice-button").addEventListener('click', rollTheDice);
 
 for (let die of dice_elements) {
-  die.addEventListener('dblclick', reserveDie);
+  die.addEventListener('dblclick', function() {reserveDie(event.target.id)} );
 }
 
 //Add an 'enter' event listener for each input element to signal when a turn is over
@@ -141,7 +141,15 @@ function newGame() {
  * 4) Toggle the class identifier between .reserved and .unreserved (adds outline on .reserved dice)
  *
  */
-function reserveDie() {
-  console.log("A die has been double-clicked");
+function reserveDie(diename) {
+  console.log(diename + " has been double-clicked");
+  var diestate = document.getElementById(diename).className;
+  if(diestate=="die unreserved"){
+    document.getElementById(diename).className = "reverseDie";
+  }
+  else{
+    document.getElementById(diename).className = "die unreserved";
+  }
+  console.log(document.getElementById(diename).className);
 
 }
