@@ -1,0 +1,24 @@
+table, th, td {
+  border: 1px solid black;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.good {
+  background-color: #caffbf;
+}
+
+.bad {
+  background-color: #ffadad;
+}
+
+.info {
+  background-color: #9bf6ff;
+}
+
+.reserved {
+  border-color: #9bf6ff;
+  border-style: dashed;
+}
