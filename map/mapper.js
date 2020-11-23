@@ -48,6 +48,8 @@ function getPoints(){
 }
 
 function China(){
+	document.getElementById("note").innerText="NOTE: Only half of all Chinese immigrants are represented. Data for the other half could not be found."
+
 	if(open){
 	italymap.setData([]);
 	japmap.setData([]);
@@ -87,6 +89,7 @@ function China(){
 }
 
 function Japan(){
+	document.getElementById("note").innerText=""
 		if(open){
 		italymap.setData([]);
 	japmap.setData([]);
@@ -156,6 +159,7 @@ function Japan(){
 }
 
 function Ireland(){
+	document.getElementById("note").innerText="NOTE: Some Irish immigrants lived in the Bronx and Queens. Data discussing the neighborhoods they lived in could not be found."
 		if(open){
 		italymap.setData([]);
 	japmap.setData([]);
@@ -220,6 +224,7 @@ function Ireland(){
 }
 
 function Germany(){
+	document.getElementById("note").innerText=""
 		if(open){
 		italymap.setData([]);
 	japmap.setData([]);
@@ -281,6 +286,7 @@ function Germany(){
 }
 
 function Jewish(){
+	document.getElementById("note").innerText=""
 		if(open){
 		italymap.setData([]);
 	japmap.setData([]);
@@ -352,6 +358,7 @@ function Jewish(){
 }
 
 function Italy(){
+	document.getElementById("note").innerText=""
 		if(open){
 	italymap.setData([]);
 	japmap.setData([]);
@@ -413,6 +420,7 @@ function Italy(){
 }
 
 function aller(){
+	document.getElementById("note").innerText=""
 	open=true;
 
 	heatmap.setData([]);
