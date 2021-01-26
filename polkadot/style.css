@@ -1,0 +1,145 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  height: 150px;
+  padding: 30px;
+}
+
+td:hover {background-color: #ffd7cf;}
+
+
+body{
+	background-color: #ccecff;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+h1{
+	color: #ffffff;
+}
+
+h2{
+	color: #ffffff;
+
+}
+
+h4{
+	color: #595A4A;
+}
+
+
+li a{
+	color: #ffdcd9;
+}
+
+.col-sm-6{
+	font-family: "Lucida Console", Courier;
+}
+
+
+#map {
+  height: 100%;
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  padding:10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #ff007b;
+}
+
+.button1:hover {
+  background-color: #ff007b;
+  color: #b8b8b8;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #eb8202;
+}
+
+.button2:hover {
+  background-color: #eb8202;
+  color: #b8b8b8;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #ffe100;
+}
+
+.button3:hover {
+  background-color: #ffe100;
+  color: #b8b8b8;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #5bc900;
+}
+
+.button4:hover {
+	background-color: #5bc900;
+	color:#b8b8b8;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #009dff;
+}
+
+.button5:hover {
+  background-color: #009dff;
+  color: #b8b8b8;
+}
+
+.button6 {
+  background-color: white;
+  color: black;
+  border: 2px solid #7800c2;
+}
+
+.button6:hover {
+  background-color: #7800c2;
+  color: #b8b8b8;
+}
+
+.button7 {
+  background-color: white;
+  color: black;
+  border: 2px solid #b8b8b8;
+}
+
+.button7:hover {
+  background-color: #b8b8b8;
+  color: white;
+}
+
+img{
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+
+
